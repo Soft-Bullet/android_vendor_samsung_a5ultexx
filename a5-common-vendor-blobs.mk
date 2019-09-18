@@ -148,8 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/a5-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/samsung/a5-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/samsung/a5-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -161,7 +159,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
@@ -239,4 +239,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/samsung/a5-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/a5-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
-    vendor/samsung/a5-common/proprietary/lib/libprotobuf-cpp-l1te.so:system/lib/libprotobuf-cpp-l1te.so
+    vendor/samsung/a5-common/proprietary/lib/libprotobuf-cpp-l1te.so:system/lib/libprotobuf-cpp-l1te.so \
+    vendor/samsung/a5-common/proprietary/lib/libprotobuf-cpp-fulM.so:system/lib/libprotobuf-cpp-fulM.so
