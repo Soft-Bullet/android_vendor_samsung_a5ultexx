@@ -159,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/samsung/a5ultexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/a5ultexx/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/a5ultexx/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/a5ultexx/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/a5ultexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
