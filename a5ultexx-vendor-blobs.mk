@@ -123,13 +123,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a5ultexx/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/samsung/a5ultexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/a5ultexx/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
