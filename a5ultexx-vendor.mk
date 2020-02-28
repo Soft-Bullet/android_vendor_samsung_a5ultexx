@@ -109,15 +109,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/samsung/a5ultexx/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a5ultexx/proprietary/etc/F13QS_imx135_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/F13QS_imx135_module_info.xml \
-    vendor/samsung/a5ultexx/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libedmnativehelper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libedmnativehelper.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/a5ultexx/proprietary/bin/irsc_util:$(TARGET_COPY_OUT_SYSTEM)/bin/irsc_util \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
@@ -135,37 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
     vendor/samsung/a5ultexx/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureuisvc_jni.so \
-    vendor/samsung/a5ultexx/proprietary/bin/netmgrd:$(TARGET_COPY_OUT_SYSTEM)/bin/netmgrd \
-    vendor/samsung/a5ultexx/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_SYSTEM)/bin/qmuxd \
-    vendor/samsung/a5ultexx/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
-    vendor/samsung/a5ultexx/proprietary/bin/rmt_storage:$(TARGET_COPY_OUT_SYSTEM)/bin/rmt_storage \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libcordon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcordon.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfactoryutil.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomission_avoidance.so \
-    vendor/samsung/a5ultexx/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
-    vendor/samsung/a5ultexx/proprietary/etc/plmn_delta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_delta.bin \
     vendor/samsung/a5ultexx/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
@@ -219,14 +191,45 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/samsung/a5ultexx/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/samsung/a5ultexx/proprietary/lib/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libatparser.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libprotobuf-cpp-l1te.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-l1te.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libprotobuf-cpp-fulM.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fulM.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-ril.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
-    vendor/samsung/a5ultexx/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
-    vendor/samsung/a5ultexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so
-
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
+     vendor/samsung/a5ultexx/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
+    vendor/samsung/a5ultexx/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
+    vendor/samsung/a5ultexx/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/samsung/a5ultexx/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/samsung/a5ultexx/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
+    vendor/samsung/a5ultexx/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/samsung/a5ultexx/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so
+    
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
@@ -234,4 +237,8 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libaudioalsa \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    qcnvitems \
+    qcrilhook \
     vendor.qti.hardware.fm@1.0
