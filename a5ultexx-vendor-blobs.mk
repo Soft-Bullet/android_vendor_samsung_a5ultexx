@@ -106,9 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/a5ultexx/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/a5ultexx/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
-    vendor/samsung/a5ultexx/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/a5ultexx/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/a5ultexx/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/a5ultexx/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/samsung/a5ultexx/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a5ultexx/proprietary/etc/F13QS_imx135_module_info.xml:system/etc/F13QS_imx135_module_info.xml \
