@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/a5ultexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/a5ultexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/a5ultexx/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/a5ultexx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/a5ultexx/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/a5ultexx/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
